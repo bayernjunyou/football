@@ -12,4 +12,4 @@ football
 
 圖本源自
 
-![foodball](./image/b.jpg)
+![foodball](./image/b.png)
