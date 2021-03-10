@@ -1,13 +1,13 @@
 football
 
-國家德比
+National Derby
 
-拜仁慕尼黑
-多特蒙德
-四比二大勝
+Bayern Munich
+Dortmund
+Four to two victory
 
-拜仁慕尼黑暫居榜首
-領先第二名兩積分
+Bayern Munich temporarily tops the list
+Two points ahead of second place
 ![bayern](./bayern.jpg)
 
 圖片來源網站
