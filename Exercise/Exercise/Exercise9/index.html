@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        caption
-        {
-        background-color: rgb(170, 253, 239);
+        caption {
+            background-color: rgb(170, 253, 239);
         }
-        th
-        {
-        background-color: gold;
+
+        th {
+            background-color: gold;
         }
-        table, th, td {
-            border-top-style:solid black
-}
+        #num
+        {
+            background-color: darkorange;
+            border-style: none;
+        }
     </style>
 </head>
+
 <body>
-    <table border="1" >
+    <table border="1" style="border:3px #030303 solid;padding:5px;" rules="all" cellpadding='5'>
         <caption>資產負債表</caption>
         <thead>
-            <tr>                
+            <tr>
                 <th colspan="3">資產</th>
                 <th colspan="3">負債及股東權益</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="4">流動資產</td>
+                <td rowspan="4" style="background-color: rgb(173, 248, 43);">流動資產</td>
                 <td>現金</td>
                 <td>399,526</td>
-                <td rowspan="3">流動負債</td>
+                <td rowspan="3" style="background-color: rgb(235, 32, 116);">流動負債</td>
                 <td>短期借款</td>
                 <td>1,634,870</td>
             </tr>
@@ -52,21 +55,22 @@
             <tr>
                 <td></td>
                 <td>2,164,974</td>
-                <td>非流動債務</td>
+                <td style="background-color: rgb(197, 97, 155);">非流動債務</td>
                 <td>長期借款</td>
                 <td>69,600</td>
             </tr>
             <tr>
-                <td rowspan="4">非流動資產</td>
+                <td rowspan="4" style="background-color: rgb(12, 117, 21);">非流動資產</td>
                 <td rowspan="4">固定資產</td>
                 <td></td>
-                <td>負債合計</td>
+                <td style="background-color: rgb(235, 69, 138);">負債合計</td>
                 <td></td>
                 <td>1,982,340</td>
             </tr>
             <tr>
                 <td></td>
-                <td rowspan="3">股東權益<p> 股東權益合計</p></td>
+                <td rowspan="3" style="background-color: rgb(176, 236, 72);">股東權益<p> 股東權益合計</p>
+                </td>
                 <td>股本</td>
                 <td>1,102,186</td>
             </tr>
@@ -78,9 +82,15 @@
             <td></td>
             <td></td>
             <td>1,543,730</td>
-            <tr>                
-                <td colspan="6">資產合計</td>
+
+            <tr id="num">
+                <td>資產</td>
+                <td></td>
+                <td>3,526,070</td>
+                <td>負債及股東權益</td>
+                <td></td>
+                <td>3,526,070</td>
             </tr>
         </tbody>
-</body>
+
 </html>
